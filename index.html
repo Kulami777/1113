@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TOEIC 練習 - 首頁</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>TOEIC 練習</h1>
+    <p class="lead">使用 HTML/CSS/JavaScript 練習文法、拼字與閱讀理解（無後端）。</p>
+  </header>
+
+  <main class="container">
+    <nav class="section-grid">
+      <a class="card" href="quiz.html">第一章：Quiz（Moodle 與線上學習平台基礎）<br><span class="muted">10 題 多選</span></a>
+      <a class="card" href="vocabulary.html">第二章：拼字練習<br><span class="muted">10 題 填空</span></a>
+      <a class="card" href="reading.html">第三章：閱讀理解<br><span class="muted">短文 + 每篇 3 題</span></a>
+    </nav>
+  </main>
+
+  <footer class="site-footer">© 練習網站 • 本網站僅供學習使用</footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>p5.js 測驗系統</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <script src="sketch.js"></script>
+</head>
+<body>
+    <!-- 右上角下拉選單：顯示目前分數與正確答案，內容由 sketch.js 動態更新 -->
+    <div id="dropdownContainer">
+        <select id="infoDropdown" aria-label="資訊下拉選單">
+            <option id="optScore">目前分數: 0 / 0</option>
+          <option id="optAnswer">正確答案: -</option>
+          <option id="optTime">已用時間: 0s</option>
+        </select>
+    </div>
+</body>
+</html>
